@@ -12,7 +12,7 @@ const msalConfig = {
 };
 
 const cca = new msal.ConfidentialClientApplication(msalConfig);
-
+   
 export const login = (req, res) => {
   const authCodeUrlParameters = {
     scopes: ["user.read"],
