@@ -16,7 +16,7 @@ const cca = new msal.ConfidentialClientApplication(msalConfig);
 export const login = (req, res) => {
   const authCodeUrlParameters = {
     scopes: ["user.read"],
-    redirectUri: "http://localhost:5050/redirect",
+    redirectUri: "http://localhost:5050/redirect",     
   };
 
   cca
