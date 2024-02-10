@@ -1,6 +1,7 @@
 import axios from "axios";
 import handleAxiosError from "../Error/Error";
-import serverUrl from "./server";
+
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 export const allCourses = async () => {
   try {

@@ -1,6 +1,7 @@
-import serverUrl from "./server";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
+
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 axios.defaults.withCredentials = true;
 

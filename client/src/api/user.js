@@ -1,6 +1,7 @@
-import serverUrl from './server'
 import axios from "axios";
 axios.defaults.withCredentials = true;
+
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 export const getUser = async (storedToken) => {
   try {

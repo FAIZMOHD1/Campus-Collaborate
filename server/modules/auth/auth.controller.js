@@ -16,7 +16,8 @@ const cca = new msal.ConfidentialClientApplication(msalConfig);
 export const login = (req, res) => {
   const authCodeUrlParameters = {
     scopes: ["user.read"],
-    redirectUri: "http://localhost:5050/redirect",
+    redirectUri: "https://umiam-kriti24.onrender.com/redirect",
+
   };
 
   cca
@@ -35,7 +36,9 @@ export const redirect = async (req, res) => {
     const tokenRequest = {
       code: req.query.code,
       scope: "user.read",
-      redirectUri: "http://localhost:5050/redirect",
+
+      redirectUri: "https://umiam-kriti24.onrender.com/redirect",
+
     };
 
     const response = await cca.acquireTokenByCode(tokenRequest);
@@ -58,7 +61,7 @@ export const redirect = async (req, res) => {
       const newUser = new User(userData);
       newUser.save();
       console.log('Server is creating user in database');
-      res.redirect('http://localhost:3000/user-form');
+      res.redirect('https://umiam-kriti24.netlify.app/user-form/');
     }
     //console.log(userData);
 
@@ -75,7 +78,7 @@ export const redirect = async (req, res) => {
       expires: new Date(Date.now() + 3073600),
       httpOnly: false,
     });
-    res.redirect("http://localhost:3000/feed");
+     res.redirect("https://umiam-kriti24.netlify.app/feed/");
     // res.send('Login Successful!');
   } catch (error) {
     console.error("Error during redirect:", error);
