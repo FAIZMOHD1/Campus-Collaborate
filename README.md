@@ -10,6 +10,7 @@ Campus Collaborate is a web/mobile application designed to foster collaboration 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#Technologies_Used)
+- [Pages](#Pages)
 
 ## Features
 
@@ -46,3 +47,25 @@ To install AlphaProject, follow these steps:
 ## Technologies Used
 
 * Web Sockets, Cloudinary, React, Node.js and MongoDb.
+
+## Pages
+
+### Login
+<img width="1440" alt="Screenshot 2024-07-01 at 12 20 06 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/d9298e87-c1f0-4dd5-afb9-d0e23e74b65a">
+
+### Home
+<img width="1440" alt="Screenshot 2024-07-01 at 12 20 33 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/2a1487ea-316c-4358-aafd-4e01ca8d8f98">
+
+### Communities
+<img width="1440" alt="Screenshot 2024-07-01 at 12 20 48 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/fc173b12-23b1-43d1-9e96-f2f1f212ac4f">
+
+### Doubt Forum
+<img width="1440" alt="Screenshot 2024-07-01 at 12 20 59 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/865c1e77-2c2d-456d-be5d-863212b1a035">
+
+### Projects
+<img width="1440" alt="Screenshot 2024-07-01 at 12 21 08 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/ebb46e2f-0742-422d-aadb-737bf9682b56">
+
+### Course
+<img width="1440" alt="Screenshot 2024-07-01 at 12 21 16 AM" src="https://github.com/FAIZMOHD1/Campus-Collaborate/assets/126939060/072eccff-68b7-4c84-8054-91659372801d">
+
+
