@@ -43,3 +43,6 @@ To install AlphaProject, follow these steps:
 * Ask for Help: Use the ask-for-help section to seek assistance or share ideas.
 * Review Courses: Review the courses you have taken to help others make informed decisions.
 
+## Technologies Used
+
+* Web Sockets, Cloudinary, React, Node.js and MongoDb.
