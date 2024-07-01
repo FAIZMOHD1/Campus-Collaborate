@@ -2,7 +2,7 @@
 
 # Campus Collaborate
 
-Campus Collaborate is a web/mobile application designed to foster collaboration among students by enabling them to showcase their projects, connect with like-minded peers, and receive constructive feedback. This platform aims to create a vibrant community where students can share their knowledge, seek help, and grow together.
+Campus Collaborate is a web application designed to foster collaboration among students by enabling them to showcase their projects, connect with like-minded peers, and receive constructive feedback. This platform aims to create a vibrant community where students can share their knowledge, seek help, and grow together.
 
 ## Table of Contents
 
